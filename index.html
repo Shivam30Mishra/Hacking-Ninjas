@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Olympic Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="medalIcon" data-toggle="modal" data-target="#medalModal">
+                            <img src="medal-icon.png" alt="Medal Icon" style="width: 30px; height: 30px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Latest News</h2>
+                    <p>From Los Angeles 1984 to LA28: Celebrating four decades of Olympic legacy</p>
+                    <img src="olympic.jpg" alt="Latest News" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h2>Highlights</h2>
+                    <p>Entire India has its fingers crossed as Vinesh Phogat continues to fight her case at the Court of Arbitration of Sport (CAS), demanding a silver medal to be awarded to her based on her Paris Olympics performance.</p>
+                    <img src="olympic1.jpg" alt="Highlights" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h2>Blog</h2>
+                    <p>Olympic figure skating champion Kim Yuna has many reasons to love L.A., most notably because she won the 2009 World Championship at Staples Center while building up to her gold-medal performance at Vancouver in February.</p>
+                    <img src="olympic.jpg" alt="Blog" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Medal Modal -->
+    <div class="modal fade" id="medalModal" tabindex="-1" role="dialog" aria-labelledby="medalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="medalModalLabel">Tennis Winners</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <img src="C:\Users\Asus\Downloads\web\player1.jpg" alt="Novak Djokovic" style="width: 50px; height: 50px; border-radius: 50%;">
+                            <img src="gold-medal.png" alt="Gold Medal" style="width: 30px; height: 30px; margin-left: 10px;">
+                            Novak Djokovic - Gold Medal (Tennis)
+                        </li>
+                        <li class="list-group-item">
+                            <img src="player2.jpg" alt="Player 2" style="width: 50px; height: 50px; border-radius: 50%;">
+                            <img src="silver-medal.png" alt="Silver Medal" style="width: 30px; height: 30px; margin-left: 10px;">
+                            Player 2 - Silver Medal (Tennis)
+                        </li>
+                        <li class="list-group-item">
+                            <img src="player3.jpg" alt="Player 3" style="width: 50px; height: 50px; border-radius: 50%;">
+                            <img src="bronze-medal.png" alt="Bronze Medal" style="width: 30px; height: 30px; margin-left: 10px;">
+                            Player 3 - Bronze Medal (Tennis)
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Olympic Website</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
